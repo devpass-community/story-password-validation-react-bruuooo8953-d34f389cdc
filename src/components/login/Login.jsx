@@ -8,8 +8,7 @@ const initialState = {
 };
 
 export const validatePassword = (password) => {
-  const passwordValidation = password === /^\d{6}$/ ? true : false
-  return passwordValidation;
+  return password === /^\d{6}$/ ? true : false
 };
 
 const Login = () => {

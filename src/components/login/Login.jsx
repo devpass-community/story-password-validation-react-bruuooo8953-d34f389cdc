@@ -8,8 +8,8 @@ const initialState = {
 };
 
 export const validatePassword = (password) => {
-  // TODO
-  return false;
+  const passwordValidation = password === /^\d{6}$/ ? true : false
+  return passwordValidation;
 };
 
 const Login = () => {
